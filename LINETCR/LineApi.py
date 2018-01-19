@@ -43,9 +43,9 @@ class LINE:
     self.authToken = self.Talk.authToken
     self.cert = self.Talk.cert
     self._headers = {
-              'X-Line-Application': 'IOSIPAD\t7.14.0\tiPhone_OS\t10.12.0', 
+              'X-Line-Application': 'DESKTOPMAC 10.10.2-YOSEMITE-x64    MAC 4.5.0', 
               'X-Line-Access': self.authToken, 
-              'User-Agent': 'Line/7.14.0 iPAD5,1 10.2.0'
+              'User-Agent': 'Line/6.0.0 iPad4,1 9.0.2'
    }
    
     self.Poll = Poll(self.authToken)
